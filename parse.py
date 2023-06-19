@@ -82,7 +82,7 @@ def input_handler(input_str):
                 result[i][j] = _dc
             elif result[i][j] == "+":
                 result[i][j] = _plus
-            elif result[i][j] == "i++":
+            elif result[i][j] == "++":
                 result[i][j] = _ic
             elif result[i][j] in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]:
                 result[i][j] = "a"
@@ -94,7 +94,7 @@ def main():
 
     tabel_parsing = {
         "L": {
-            "f": "fNDKCKRMBAT",
+            "f": "fNDKCKVRMBAKT",
             "x": "-",
             "v": "-",
             "m": "-",
@@ -459,7 +459,7 @@ def main():
 
     print("Aturan Produksi :")
     print("LL(1) DENGAN NOTASI SEDERHANA")
-    print("L -> fNDKCKRMBAT")
+    print("L -> fNDKCKRMBATK")
     print("A -> VEVOV")
     print("D -> IVEV")
     print("C -> VPV")
