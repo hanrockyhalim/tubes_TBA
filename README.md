@@ -1,6 +1,4 @@
 # tubes_TBA
 
 # How to run : 
-
-## python fa.py
-## python parse.py
+python fa.py and python parse.py
